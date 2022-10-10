@@ -1,0 +1,66 @@
+h1.intro{
+    color:brown ;
+}
+body{
+    background-color: aqua;
+    text-align: center;
+    overflow-x:hidden;
+
+}
+.side_headings{
+    text-decoration: underline;
+}
+span.boat_body{
+    background-color: brown;
+}
+span.flag{
+    background-color:antiquewhite
+}
+button.add_human{
+    background-color:rgb(114, 188, 126);
+    color:rgb(221, 38, 50);
+    font-weight: bold;
+}
+button.add_human:hover,button.add_color_button:hover{
+    box-shadow: 10px 10px 10px black;
+}
+.para{
+    font-weight: 10;
+     width: max-content ; 
+     margin: auto;
+    /* white-space: nowrap; */
+    white-space: nowrap;
+  overflow: hidden;
+    line-height: 1em;
+    text-align: center;
+}   
+button.add_color{
+    background-color:rgb(221, 38, 50);
+    color:rgb(114, 188, 126);
+    font-weight: bold;
+}
+.heart{
+    color: red;
+    /* background-color: red; */
+}
+.face{
+    font-weight: 900;
+    /* background-color:#ecbce4; */
+    /* background-color: rgb(236, 188, 228); */
+    background-color: #dfc183;
+}
+.hand{
+    background-color: rgb(112, 193, 112);
+    font-weight: 900;
+}
+.upper_body{
+    background-color: red;
+    font-weight: 900;
+}
+.lower_body{
+    background-color: rgb(82, 82, 162);
+    font-weight: 900;
+}
+.flag,.boat_body{
+    font-weight: 900;
+}
